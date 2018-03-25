@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Padel UPM: Instalaciones</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ESTILOS CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styleApp.css">
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/autenticar.js"></script>
+</head>
+<body>
+    <!-- BARRA DE NAVEGACION SUPERIOR -->
+    <nav id="navBarApp" class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img id="brand" src="images/brand.png" alt="Logotipo de Padel UPM"/><span class="colorVerde2"></span></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" class="colorMarroncito">Inicio</a></li>
+                    <li><a href="servicios.html" class="colorMarroncito">Servicios</a></li>
+                    <li class="active"><a href="instalaciones.html" class="colorMarroncito">Instalaciones</a></li>
+                    <li><a href="#" class="colorMarroncito">Reservar</a></li>
+                    <li><a id="btnRegistrarse" href="registrarse.html" class="text-center colorNaranja bordearColorNaranja tamanioBoton">Registrarse</a></li>
+                    <li id="elementLogin">
+                        <a id="btnLoguearse" href="login.html" class="colorMarroncito bordearColorMarroncito text-center"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION INSTALACIONES DE PRIMER NIVEL -->
+    <section class="fondoBlanco">
+        <div class="container">
+            <div class="row">
+                <h3 class="negrita colorVerde4 text-center">Instalaciones de primer nivel</h3>
+                <p class="colorVerde4">
+                    En Padel Club UPM contamos con las mejores calidades a nivel de instalaciones y material.
+                    Construido sobre una parcela de 10.000 m2, nuestro club ofrece servicio de alquiler de pistas, cursos y escuelas deportivas entre otros más.
+                    Además, se apuesta por la promoción de este deporte entre los más pequeños, formando de manera especifica a estos, proporcionandoles un seguimiento mensual.
+                </p>
+                <div class="col-md-8 margin2percent">
+                    <img src="images/mapaInstalaciones.png" class="img-responsive" alt="Mapa de las instalaciones en 3D"/>
+                </div>
+                <div id="cajaInstalaciones" class="col-md-4 margin2percent">
+                    <ul>
+                        <li>Pista para campeonatos con grada x1</li>
+                        <li>Pistas de hierba artificial x8</li>
+                        <li>Pistas de tierra x2</li>
+                        <li>Pistas cubierta x1</li>
+                        <li>Pistas de policemento x2</li>
+                        <li>Zonas de vestuarios x4</li>
+                        <li>Pistas de tenis x2</li>
+                        <li>Cafetería x1</li>
+                        <li>Recepción x1</li>
+                        <li>Enfermería x1</li>
+                        <li>Sala de entrenamientos x2</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION DONDE ESTAMOS -->
+    <section class="fondoMarroncito">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="negrita colorVerde4 text-center">¿Dónde estamos?</h3>
+                    <div class="text-center">
+                        <span class="colorVerde4">Universidad Politécnica de Madrid </span><br>
+                        <span class="colorVerde4">Campus Sur</span><br>
+                        <span class="colorVerde4">ETSISI</span><br>
+                        <span class="colorVerde4">C/Nikola Tesla, s/n, </span><br>
+                        <span class="colorVerde4">28031 (Madrid)</span><br>
+                    </div>
+                </div>
+                <div class="col-md-6" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.899445038527!2d-3.6301025842133527!3d40.38892117936837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4225a461451293%3A0x85df40b806a5c353!2sCalle+Nikola+Tesla%2C+28038+Madrid!5e0!3m2!1ses!2ses!4v1513368114806" width="400" height="300" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ECHE UN VISTAZO -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <h3 class="negrita colorMarroncito text-center">Echa un vistazo a nuestras instalaciones...</h3>
+                <div class="col-md-6 col-md-offset-3">
+                    <div id="carrouselInstalaciones" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carrouselInstalaciones" data-slide-to="0" class="active"></li>
+                            <li data-target="#carrouselInstalaciones" data-slide-to="1"></li>
+                            <li data-target="#carrouselInstalaciones" data-slide-to="2"></li>
+                            <li data-target="#carrouselInstalaciones" data-slide-to="3"></li>
+                            <li data-target="#carrouselInstalaciones" data-slide-to="4"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/carrousel1.jpg" alt="Pistas de padel interior"/>
+                            </div>
+
+                            <div class="item">
+                                <img src="images/carrousel2.jpg" alt="Pistas de padel exterior"/>
+                            </div>
+
+                            <div class="item">
+                                <img src="images/carrousel3.jpg" alt="Pistas de padel interior techadas"/>
+                            </div>
+
+                            <div class="item">
+                                <img src="images/carrousel4.jpg" alt="Baños y aseos"/>
+                            </div>
+
+                            <div class="item">
+                                <img src="images/carrousel5.jpg" alt="Pistas de Maxipolivinilo"/>
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#carrouselInstalaciones" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carrouselInstalaciones" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MINIFOOTER -->
+    <div id="miniFooter" class="row">
+        <div class="col-md-12">
+            <span class="text-center center-block letterXSmaller colorMarroncito">Padel Club UPM © 2017 - All Rights Reserved</span>
+        </div>
+    </div>
+</body>
+</html>

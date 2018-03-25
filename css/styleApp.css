@@ -1,0 +1,453 @@
+body {
+    background-color: #00695C;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+#infoClub {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+#btnPresupuesto{
+    background-color: #00695C;
+    font-weight: bold;
+    width: 134px;
+    padding: 1%;
+    height: 54px;
+}
+
+#btnPresupuesto:hover{
+    background-color: #e2dcc4;
+    color: #00695C !important;
+}
+
+#navBarApp {
+    background-color: #00695C !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.colorBlanco {
+    color: #fff !important;
+}
+
+.colorVerde0 {
+    color: #A7FFEB !important;
+}
+
+.colorVerde1 {
+    color: #64FFDA !important;
+}
+
+.colorVerde2 {
+    color: #1DE9B6 !important;
+}
+
+.colorVerde3 {
+    color: #00BFA5 !important;
+}
+
+.colorVerde4 {
+    color: #00695C !important;
+}
+
+.colorMarroncito {
+    color: #e2dcc4 !important;
+}
+
+.colorNaranja {
+    color: #ff8000 !important;
+}
+
+#btnRegistrarse2 {
+    background-color: #e2dcc4;
+}
+
+#btnRegistrarse2:hover, #btnEntrar:hover {
+    background-color: #ff8000;
+}
+
+.colorFucsia {
+    color: #ff0091 !important;
+}
+
+.bordearImagenMarroncito {
+    border: 10px solid #e2dcc4;
+}
+
+.bordearImagenVerde4 {
+    border: 10px solid #00695C;
+}
+
+.jumbotron {
+    background-image: url('../images/jumbotron.jpg');
+    background-repeat: no-repeat;
+    height: 350px;
+    background-position: top;
+    background-size: cover;
+    top:0;
+    left:0;
+    margin-bottom: 0;
+}
+
+.espacio {
+    height: 20px;
+}
+
+.bordearColorBlanco {
+    border: #fff 2px solid;
+    border-radius: 10px;
+}
+
+.bordearColorVerde0 {
+    border: #A7FFEB 2px solid;
+    border-radius: 10px;
+}
+
+.bordearColorVerde1 {
+    border: #64FFDA 2px solid;
+    border-radius: 10px;
+}
+
+.bordearColorVerde2 {
+    border: #1DE9B6 2px solid;
+    border-radius: 10px;
+}
+
+.bordearColorVerde3 {
+    border: #00BFA5 2px solid;
+    border-radius: 10px;
+}
+
+.bordearColorVerde4 {
+    border: #00695C 2px solid;
+    border-radius: 10px;
+}
+
+.bordearColorMarroncito {
+    border: #e2dcc4 2px solid;
+    border-radius: 10px;
+}
+
+.bordearColorNaranja {
+    border: #ff8000 2px solid;
+    border-radius: 10px;
+}
+
+.form-control{
+    border: 2px solid #e2dcc4;
+    color: #e2dcc4 !important;
+}
+
+.form-control:focus {
+    border: 2px solid #ff8000;
+    box-shadow: 0 0 5px #ff8000 inset;
+}
+
+.form-control {
+    background-color: #00796B !important;
+}
+
+.bordearColorFucsia {
+    border: #ff0091 2px solid;
+    border-radius: 10px;
+}
+
+#btnRegistrarse {
+    font-weight: bold;
+    margin-right: 1.5rem;
+}
+
+#btnLoguearse {
+    font-weight: bold;
+    width: 134px;
+}
+
+#btnRegistrarse:hover {
+    background-color: #ff8000 !important;
+    color: #00796B !important;
+}
+
+#btnLoguearse:hover {
+    background-color: #e2dcc4 !important;
+    color: #00796B !important;
+}
+
+.navbar-brand {
+    float: none;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    text-shadow: none;
+}
+
+.navbar-right {
+    margin-top: 1.25rem;
+}
+
+.fondoMarroncito {
+    background-color: #e2dcc4 !important;
+}
+
+.fondoBlanco {
+    background-color: #fff !important;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 1px solid #e2dcc4;
+}
+
+.footerCajita {
+    background-color: #00796B;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 5rem;
+    border: 2px solid #004D40;
+    margin-bottom: 3rem;
+}
+
+#imgPistaPortatil {
+    height: 250px;
+}
+
+#imgTienda{
+    height: 300px;
+}
+
+#imgRestauracion {
+    width: 440px;
+}
+
+.margin2percent {
+    margin-top: 2%;
+}
+
+.fondoImagenBlanco {
+    height: 20%;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 2%;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.letterSmaller {
+    font-size: smaller;
+}
+
+.letterXSmaller {
+    font-size: x-small;
+}
+
+.letterXXSmaller {
+    font-size: xx-small;
+}
+
+.espaciadoAfiliados {
+    margin-top: 4rem;
+}
+
+.tituloFooter {
+    margin-bottom: 2rem;
+}
+
+#miniFooter {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #004D40;
+    font-size: smaller;
+}
+
+#btnReservar {
+     margin: 1rem;
+     padding: 1rem;
+     background-color: #fff;
+     width: 134px;
+     height: 54px;
+}
+
+#btnReservar:hover {
+    background-color: #ff8000;
+    color: #fff !important;
+}
+
+.logoAfiliado {
+    height: 75px;
+    opacity: 0.6;
+}
+
+.logoAfiliado:hover {
+    opacity:1
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+#carrouselInstalaciones {
+    border-radius: 10px;
+    border: 10px solid #e2dcc4;
+    margin-top: 3rem;
+}
+
+.carousel-indicators .active {
+    background-color: #ff8000 !important;
+}
+
+.carousel-indicators li {
+    border: 1px solid #ff8000 !important;
+}
+
+.carousel-control {
+    color: #ff8000 !important;
+}
+
+#cajaInstalaciones {
+    border: 5px dashed #00796B;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+#cajaInstalaciones > ul > li {
+    color: #00796B;
+    font-weight: bold;
+}
+
+.panel-default > .panel-heading {
+    background-image: none !important;
+    filter: none !important;
+    background-repeat: no-repeat !important;
+    background-color: #00796B !important;
+    border-color: #00796B !important;
+    border-bottom: 2px solid #004D40 !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.panel-default > .panel-body {
+    background-color: #00796B !important;
+    border-color: #00796B !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.panel-default {
+    border: none !important;
+}
+.panel {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #e2dcc4 !important;
+}
+
+#btnEntrar {
+    background-color: #e2dcc4;
+}
+
+.input-group-addon {
+    color: #00796B !important;
+    background-color: #e2dcc4 !important;
+    border: 1px solid #e2dcc4 !important;
+}
+
+.navbar-toggle {
+    background-color: #00695C  !important;
+    border: 2px solid #e2dcc4 !important;
+    margin-top: 2rem !important;
+}
+
+.icon-bar {
+    background-color: #e2dcc4  !important;
+}
+
+.nav > li > a:hover {
+    color: #ff8000 !important;
+    background-color: #00695C !important;
+}
+
+.nav > li > a:focus {
+    background-color: #00695C !important;
+}
+
+.fondoVerde4 {
+    background-color: #00695C !important;
+}
+
+#errorFormulario {
+    color: #ffe21f;
+}
+
+#mensajeErrorFormulario {
+    font-size: smaller;
+}
+
+.tamanioBoton {
+    height: 54px;
+    width: 134px;
+}
+
+.tamanioBoton2x {
+    height: 54px;
+    width: 268px;
+}
+
+.dropdown-menu > li > a {
+    padding: 10px 25px !important;
+}
+
+.dropdown-menu > li > a:hover {
+    background-image: none !important;
+    background-color: #e2dcc4  !important;
+    color: #00695C !important;
+    font-weight: bold;
+}
+
+.iconoLargo {
+    font-size: large;
+}
+
+.dropdown-menu {
+    min-width: 268px !important;
+    border-radius: 10px !important;
+}
+
+.iconoServicios {
+    border-radius: 10px;
+    width: 120.8px;
+    height: 120.8px;
+    padding: 2%;
+    font-size: 70px;
+}
+
+.dropdown-menu .divider {
+    height: 2px !important;
+    margin: 7px 0 !important;
+}
+
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+#recaptcha {
+    width: 304px;
+    margin: 0 auto 15px;
+}
+
+#brand {
+    display: inline-block;
+}
+
+.form-control::-webkit-input-placeholder { color: #e2dcc4; opacity: 0.6}
+.form-control:-moz-placeholder { color: #e2dcc4; opacity: 0.6}
+.form-control::-moz-placeholder { color: #e2dcc4; opacity: 0.6}
+.form-control:-ms-input-placeholder { color: #e2dcc4; opacity: 0.6}

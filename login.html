@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Padel UPM: Login</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ESTILOS CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styleApp.css">
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/login.js"></script>
+</head>
+<body class="fondoMarroncito">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
+                <div class="panel panel-default" style="margin-top: 1in;">
+
+                    <!-- CABECERA PANEL -->
+                    <div class="panel-heading">
+                        <div><a href="index.html"><img src="images/brand.png" class="img-responsive center-block" alt="Logotipo"/></a></div>
+                    </div>
+
+                    <!-- CUERPO PANEL -->
+                    <div class="panel-body">
+                        <form id="credenciales" method="GET" name="credenciales">
+                            <fieldset>
+                                <h4 class="center-block text-center colorMarroncito negrita">Login:</h4>
+                                <div class="row" id="formularioLogin">
+                                    <div class="col-sm-12 col-md-10  col-md-offset-1 ">
+
+                                        <!-- CAMPO USERID -->
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-user"></span>
+                                                </span>
+                                                <input autofocus id="userid" class="form-control" placeholder="Usuario" name="userid" required type="text">
+                                            </div>
+                                        </div>
+
+                                        <!-- CAMPO CONTRASEÑA -->
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                      <span class="glyphicon glyphicon-lock"></span>
+                                                </span>
+                                                <input id="password" class="form-control" placeholder="Contraseña" name="password" required type="password">
+                                            </div>
+                                        </div>
+
+                                        <!-- ERROR VALIDACION -->
+                                        <div id="errorFormulario" class="form-group center-block text-center">
+                                            <span class="glyphicon glyphicon-warning-sign"></span>
+                                            &nbsp;<span id="mensajeErrorFormulario"></span>
+                                        </div>
+
+                                        <!-- CAMPO RECAPTCHA -->
+                                        <div id="recaptcha" class="form-group">
+                                            <div class="g-recaptcha" data-sitekey="6LfnmT4UAAAAAF57gchN3qx518IEZWYBEQiVjaxp" data-callback="recaptchaValidoCallback"></div>
+                                        </div>
+
+                                        <!-- BOTON ENTRAR -->
+                                        <div class="form-group">
+                                            <button id="btnEntrar" class="btn btn-lg btn-block colorVerde4 negrita">Entrar</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <p class="text-center letterSmaller colorMarroncito">¿Ha olvidado su contraseña? &nbsp;<a href="#" class="colorNaranja">Pinche aqui</a></p>
+                        <p class="pull-right letterSmaller colorMarroncito"> ¿No tiene cuenta? &nbsp;<a class="colorNaranja" href="registrarse.html">Cree una.</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

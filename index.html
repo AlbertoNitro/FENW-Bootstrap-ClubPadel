@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Padel Club UPM</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ESTILOS CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styleApp.css">
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/autenticar.js"></script>
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACION SUPERIOR -->
+    <nav id="navBarApp" class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img id="brand" src="images/brand.png" alt="Logotipo de Padel UPM"/><span class="colorVerde2"></span></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#" class="colorMarroncito">Inicio</a></li>
+                    <li><a href="servicios.html" class="colorMarroncito">Servicios</a></li>
+                    <li><a href="instalaciones.html" class="colorMarroncito">Instalaciones</a></li>
+                    <li><a href="#" class="colorMarroncito">Reservar</a></li>
+                    <li><a id="btnRegistrarse" href="registrarse.html" class="colorNaranja bordearColorNaranja tamanioBoton text-center">Registrarse</a></li>
+                    <li id="elementLogin">
+                        <a id="btnLoguearse" href="login.html" class="colorMarroncito bordearColorMarroncito text-center"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- JUMBOTRON IMAGEN PRINCIPAL -->
+    <div class="jumbotron">
+    </div>
+
+    <!-- SECTION PRESENTACION -->
+    <section id="infoClub">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h1 class="colorMarroncito text-right negrita">Padel Club UPM</h1>
+                    <p class="colorMarroncito">Contamos con un magnifico equipo técnico encargado de diseñar e impartir las clases en función de la demanda de los alumnos. Es una academia para todos los niveles, desde personas que se inician por primera vez en este deporte hasta grupos de entrenamiento intensivos orientados a la competición.
+                        También ponemos a disposición de nuestros clientes ranking, competiciones variadas (torneos, pozos), fiestas de cumpleaños para los más pequeños con castillos hinchables, eventos de empresas y particulares.</p>
+                </div>
+
+                <div class="col-md-2 hidden-xs">
+                    <a href="#"><img src="images/brandMax.png" alt="Logotipo de Padel UPM"/></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION RESERVAR PISTA -->
+    <section class="fondoBlanco">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="negrita colorVerde4 text-center">Reserva pista online</h3>
+                    <p class="colorVerde4">Los socios pueden reservar y alquilar una de nuestras pistas de forma online. A través de un proceso sencillo, seleccionando el dia, hora y una pista disponible. </p>
+                    <div class="text-center center-block"><button id="btnReservar" class="colorNaranja bordearColorNaranja negrita">Reservar</button></div>
+                </div>
+                <div class="col-md-6 hidden-xs">
+                    <div id="cont_3a86c42aa0f2b143a273de683a4a8916"><script async src="https://www.tiempo.com/wid_loader/3a86c42aa0f2b143a273de683a4a8916"></script></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SERVICIOS -->
+    <section class="fondoMarroncito">
+        <div class="container-fluid">
+            <div class="row">
+                <div  class="col-md-2 colorVerde4 col-md-offset-2">
+                    <h3 class="colorVerde4 negrita">Clases semanales</h3>
+                    <ul>
+                        <li>Coordinador de la Escuela de Menores CPLM, siempre presente en las clases de la Escuela</li>
+                        <li>Clases organizadas por <strong>niveles y edades</strong></li>
+                        <li>Horarios semanales y de <strong>fin de semana</strong> para todas las edades y niveles</li>
+                        <li class="hidden-xs">Contamos con instalaciones de ultimo nivel y excepcionales calidad</li>
+                        <li class="hidden-xs"><strong>Profesores titulados</strong> y con años de experiencia en competiciones nacionales.</li>
+                    </ul>
+
+                </div>
+                <div  class="col-md-2 colorVerde4 col-md-offset-1">
+                    <h3 class="colorVerde4 negrita">Campeonatos y torneos</h3>
+                    <ul>
+                        <li>Participa en nuestra <strong>liga interna</strong> creada para los socios</li>
+                        <li class="hidden-xs">Se celebran <strong>torneos</strong> a lo largo de todo el año entre otros club de padel provinciales</li>
+                        <li>Compite a nivel nacional con una <strong>licencia federativa</strong></li>
+                        <li class="hidden-xs">Premios y patrocinios por representar al club en diferentes torneos</li>
+                    </ul>
+                </div>
+                <div  class="col-md-2 colorVerde4 col-md-offset-1">
+                    <h3 class="colorVerde4 negrita">Entrenamientos personalizados</h3>
+                    <ul>
+                        <li class="hidden-xs"><strong>Evaluación continua</strong> del alumno, con el fin de mantenerle siempre en grupos de su nivel y promocionándole a cambio de grupo cuando sea necesario</li>
+                        <li><strong>Control periódico</strong> de los alumnos por parte de la dirección del Centro Profesional de Pádel del Club.</li>
+                        <li>Los alumnos seleccionados, podrán formar parte de los equipos de <strong>jugadores del club</strong> a nivel nacional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION EVENTOS -->
+    <section class="fondoVerde4">
+        <div class="container">
+            <div class="row">
+                <div  class="col-md-4 colorMarroncito">
+                    <img id="imgPistaPortatil" class="img-circle bordearImagenMarroncito" src="images/pistaPortatil.png" alt="Pista portatil de Pdel Club UPM"/>
+                </div>
+                <div  class="col-md-8 colorMarroncito">
+                    <h3 class="colorMarroncito negrita">Celebración de eventos</h3>
+                    <p class="colorMarroncito">
+                        Contamos con toda la infraestructura necesaria para montar y desmontar una <strong>pista portatil</strong> en el lugar que nos indiques.
+                        Nos encargamos de todo el proceso de instalación: marcos, cristales, moqueta, iluminación, y por supuesto su posterior desmontaje, <strong>dejando el suelo</strong> donde se instaló <strong>intacto</strong> (frente a otras soluciones del mercado que atornillan la pista dejando marcas en el pavimiento)
+                    </p>
+                    <div>
+                        <button id="btnPresupuesto" class="colorMarroncito bordearColorMarroncito center-block">Presupuesto</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION AFILIADOS Y PATROCINADORES -->
+    <section class="fondoBlanco">
+        <div class="container">
+            <h3 class="negrita colorVerde4 text-center">Afiliados y Patrocinadores:</h3>
+            <div class="row espaciadoAfiliados">
+                <div class="col-md-2 col-md-offset-0 text-center hidden-xs">
+                    <img src="images/patrocinador1.jpg" class="logoAfiliado" alt="Logotipo de la Federacion Madrileña de Padel"/>
+                </div>
+
+                <div class="col-md-2 col-md-offset-1 text-center">
+                    <img src="images/patrocinador3.png" class="logoAfiliado" alt="Logotipo de Coca Cola"/>
+                </div>
+
+                <div class="col-md-2 col-md-offset-1 text-center hidden-xs">
+                    <img src="images/patrocinador4.png" class="logoAfiliado" alt="Logotipo de la UPM"/>
+                </div>
+
+                <div class="col-md-2 col-md-offset-1 text-center">
+                    <img src="images/patrocinador6.jpg" class="logoAfiliado" alt="Logotipo de Bullpadel"/>
+                </div>
+            </div>
+            <div class="row espaciadoAfiliados">
+                <div class="col-md-2 col-md-offset-0 text-center hidden-xs">
+                    <img src="images/patrocinador8.jpg" class="logoAfiliado" alt="Logotipo de Puma"/>
+                </div>
+
+                <div class="col-md-2 col-md-offset-1 text-center">
+                    <img src="images/patrocinador5.jpg" class="logoAfiliado" alt="Logotipo de la Federacion Española de Padel"/>
+                </div>
+
+                <div class="col-md-2 col-md-offset-1 text-center ">
+                    <img src="images/patrocinador2.jpg" class="logoAfiliado" alt="Logotipo de Bolero"/>
+                </div>
+
+                <div class="col-md-2 col-md-offset-1 text-center hidden-xs">
+                    <img src="images/patrocinador7.jpg" class="logoAfiliado" alt="Logotipo del Ayuntamiento de Madrid"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footerCajita col-md-2 col-md-offset-2">
+                        <img src="images/footerSobreNosotros.png" class="img-responsive center-block fondoImagenBlanco" alt="Icono de pelota de padle"/>
+                        <h4 class="text-center colorMarroncito negrita tituloFooter">Club:</h4>
+                        <div class="center-block text-center">
+                            <span class="colorMarroncito letterSmaller subrayado">Normativa del club</span><br>
+                            <span class="colorMarroncito letterSmaller subrayado">Términos y Condiciones</span><br>
+                            <span class="colorMarroncito letterSmaller subrayado">Aviso legal</span><br>
+                        </div>
+                    </div>
+
+                    <div class="footerCajita col-md-2 col-md-offset-1">
+                        <img src="images/footerLocalizacion.png" class="img-responsive center-block fondoImagenBlanco" alt="Icono de localizacion"/>
+                        <h4 class="text-center colorMarroncito negrita tituloFooter">Localización:</h4>
+                        <div class="center-block text-center">
+                            <span class="colorMarroncito letterSmaller">Universidad Politécnica de Madrid </span><br>
+                            <span class="colorMarroncito letterSmaller">ETSISI, Campus Sur</span><br>
+                            <span class="colorMarroncito letterSmaller">C/Nikola Tesla, s/n, 28031 (Madrid)</span><br>
+                        </div>
+                    </div>
+
+                    <div class="footerCajita col-md-2 col-md-offset-1">
+                        <img src="images/footerContacto.png" class="img-responsive center-block fondoImagenBlanco" alt="Icono de contacto"/>
+                            <h4 class="text-center colorMarroncito negrita tituloFooter">Contacto:</h4>
+                            <div class="center-block text-center">
+                                <span class="colorMarroncito letterSmaller"><strong>Telefono móvil:</strong> 661511336</span><br>
+                                <span class="colorMarroncito letterSmaller"><strong>Telefono fijo:</strong> 918949955</span><br>
+                                <span class="colorMarroncito letterSmaller"><strong>Email:</strong> padel-upm@upm.es</span>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="miniFooter" class="row">
+                <div class="col-md-12">
+                    <span class="text-center center-block letterXXSmaller colorMarroncito">Padel Club UPM © 2017 - All Rights Reserved</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Padel UPM: Registrarse</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ESTILOS CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" >
+    <link rel="stylesheet" type="text/css" href="css/styleApp.css">
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body class="fondoMarroncito">
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
+            <div class="panel panel-default" style="margin-top: 1in;">
+
+                <!-- CABECERA PANEL -->
+                <div class="panel-heading">
+                    <div><a href="index.html"><img src="images/brand.png" class="img-responsive center-block" alt="Logotipo"/></a></div>
+                </div>
+
+                <!-- CUERPO PANEL -->
+                <div class="panel-body">
+                    <form id="credenciales" method="POST" name="credenciales">
+                        <fieldset>
+                            <h4 class="center-block text-center colorMarroncito negrita">Registrarse:</h4>
+                            <div class="row" id="formularioLogin">
+                                <div class="col-sm-12 col-md-10  col-md-offset-1 ">
+
+                                    <!-- CAMPO USERID -->
+                                    <div class="form-group">
+                                        <span class="colorMarroncito letterSmaller">Nombre de usuario:</span>
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-user"></span>
+                                            </span>
+                                            <input autofocus id="userid" class="form-control" placeholder="Nombre de usuario" name="userid" required type="text">
+                                        </div>
+                                    </div>
+
+                                    <!-- CAMPO EMAIL -->
+                                    <div class="form-group">
+                                        <span class="colorMarroncito letterSmaller">Email:</span>
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-envelope"></span>
+                                            </span>
+                                            <input id="email" class="form-control" placeholder="Email" name="email" required type="email">
+                                        </div>
+                                    </div>
+
+                                    <!-- CAMPO FECHA NACIMIENTO -->
+                                    <div class="form-group">
+                                        <span class="colorMarroncito letterSmaller">Fecha de nacimiento:</span>
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+                                            <input id="birthday" class="form-control" name="birthday" required type="date">
+                                        </div>
+                                    </div>
+
+                                    <!-- CAMPO CONTRASEÑA -->
+                                    <div class="form-group">
+                                        <span class="colorMarroncito letterSmaller">Contraseña:</span>
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                  <span class="glyphicon glyphicon-lock"></span>
+                                            </span>
+                                            <input id="password" class="form-control" placeholder="Contraseña" name="password" required type="password">
+                                        </div>
+                                    </div>
+
+                                    <!-- CAMPO REPETIR CONTRASEÑA -->
+                                    <div class="form-group">
+                                        <span class="colorMarroncito letterSmaller">Repite la contraseña:</span>
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                  <span class="glyphicon glyphicon-lock"></span>
+                                            </span>
+                                            <input id="password2" class="form-control" placeholder="Contraseña" name="password2" required type="password">
+                                        </div>
+                                    </div>
+
+                                    <!-- BOTON REGISTRARSE -->
+                                    <div class="form-group">
+                                        <button id="btnRegistrarse2" class="btn btn-lg btn-block colorVerde4 negrita">Registrarse</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <p class="text-right letterSmaller colorMarroncito">¿Ha olvidado su contraseña? &nbsp;<a class="colorNaranja" href="#">Pinche aqui</a></p>
+                    <p class="text-right letterSmaller colorMarroncito"> ¿Tiene ya una cuenta? &nbsp;<a class="colorNaranja" href="login.html">Inicie sesión.</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
